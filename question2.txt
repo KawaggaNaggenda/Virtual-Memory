@@ -1,0 +1,8 @@
+No,the tail-recursive filter function does not return elements in the same order as the original.
+
+This is because in tail reursion is run in O(n) time space complexity in compiliation, which is always positive.
+
+This is based on the fact that the function (lambda (x) (> x 0)), where x has to be greater that 0, thus reducing stack overflow.
+
+Hence all the negative values are discared and only the positive ones remain i.e 25 44 56 88 19 27
+
